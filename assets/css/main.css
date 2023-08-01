@@ -377,6 +377,7 @@ html{
     border: none;
     outline: none;
     border-radius: 8px;
+    resize: vertical;
 }
 
 .footer-contact-response-text::placeholder{
