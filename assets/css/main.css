@@ -17,9 +17,18 @@ html{
     --opacity-color: #F4F4F4;
 }
 
-#header-nav-img{
-    margin: 0 34px;
+#main{
+    overflow: hidden;
 }
+
+#header-nav-img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 35px;
+}
+
 
 #header-top{
     display: flex;
@@ -31,6 +40,14 @@ html{
     width: 90px;
     height: 27.61363410949707px;
     cursor: pointer;
+}
+
+.header-menu-icon{
+    display: none;
+}
+
+.header-navbar{
+    display: flex;
 }
 
 #nav{
@@ -58,6 +75,15 @@ html{
     font-weight: 500;
 }
 
+.header-navbar-red-line{
+   display: none;     
+}
+
+.header-navbar-primary-line{
+    display: none;
+}
+
+
 #header-content{
     display: flex;
     align-items: center;
@@ -73,6 +99,10 @@ html{
     width: 539px;
     height: 674px;
     border-radius: 48px;
+}
+
+.header-content-responsive-img2 {
+    display: none;
 }
 
 .header-content-description{
@@ -211,17 +241,25 @@ html{
     height: 34px;
 }
 
-#content{
+ #content{
     width: 100%;
 }
 
 .content-glide-images{
-    padding: 15px 34px;
+    margin: 0 auto;
+    display: block;
     width: 100%;
+    max-width: 1320px;
+    padding: 0 16px;
+
 }
 
 .content-introduce{
-    margin: 50px 34px 0 34px;
+    margin: 50px auto;
+    display: block;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 16px;
 }
 
 .content-introduce-title{
@@ -241,6 +279,7 @@ html{
     padding: 22px;
     border-radius: 18px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .content-introduce-each-col-title{
@@ -315,7 +354,11 @@ html{
 }
 
 .footer-contact {
-    margin: 55px 34px 0 34px;
+    margin: 55px auto;
+    display: block;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 16px;
 }
 
 .footer-contact-title{
@@ -332,8 +375,6 @@ html{
 
 .footer-contact-information{
     background-color: var(--opacity-color);
-    width: 762px;
-    height: 546px;
     border-radius: 32px;
     padding: 40px;
 }
@@ -350,6 +391,7 @@ html{
 }
 
 .footer-contact-user-title{
+    margin: 20px 0px;
     font-size: 16px;
     line-height: 19.36px;
     margin-bottom: 10px;
@@ -377,7 +419,7 @@ html{
     border: none;
     outline: none;
     border-radius: 8px;
-    resize: vertical;
+    resize: none;
 }
 
 .footer-contact-response-text::placeholder{
@@ -472,7 +514,10 @@ html{
 }
 
 .footer-information{
-    margin: 50px 34px;
+    margin: 55px auto;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 16px;
     display: flex;
     justify-content: space-between;
 }
@@ -578,7 +623,17 @@ html{
     font-size: 14px;
     line-height: 16.94px;
     color: var(--white-color);
+} 
+
+.contanier {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 16px;
 }
+
+
 
 
 

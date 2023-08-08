@@ -1,0 +1,332 @@
+
+/* mobile */
+
+/* tablet */
+@media (max-width: 1024px) {
+
+    #header-top{
+        align-items: center;
+    } 
+
+    .header-logo{
+        width: 64px;
+        height: 19.64px;
+    }
+    
+    .header-menu-icon{
+        width: 21px;
+        height: 15px;
+        display: block;
+     }
+    
+    .header-navbar{
+        display: none;
+        background: #00000080;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        z-index: 2;
+    }
+    .header-navbar.active{
+        display: block;
+    }
+
+    #nav{
+        display: none;
+        background-color: var(--white-color);
+        box-shadow: 6px 0px 10px 0px #00000026;
+        width: 50%;
+        height: 100%;
+        padding: 40px 0px 0px 0px;
+        animation: navFadeIn ease 0.3s;
+    }
+
+    #nav.active{
+        display: block;
+    }
+
+    #nav li{
+        position: relative;
+        list-style-type: none;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    #nav li a{
+        
+    }
+
+    @keyframes navFadeIn {
+        from { 
+            opacity: 0;
+            transform: translateX(-500px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateX(0);
+    
+        }
+    }
+
+    .header-navbar-red-line {
+        display: block;     
+        background-color: #E31F26;
+        width: 260px;
+        height: 6px;
+        position: absolute;
+        bottom: 6px;
+     }
+     
+     .header-navbar-primary-line {
+        display: block;     
+        background-color: var(--primary-color);
+        width: 260px;
+        height: 6px;
+        position: absolute;
+        bottom: 0;
+     }
+     
+
+    .header-content-second-description{
+        z-index: -1;
+        
+    }
+    #header-content{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .header-content-img1{
+        display: none;
+    }
+
+    .header-content-img2{
+        display: none;
+    }
+
+    .header-content-responsive-img2 {
+        display: block;
+        padding-top: calc(9/16 * 135%);
+        background: url(../../assets/images/responsive-image/GirlWithPhone.png);
+        background-size: cover;
+    }
+
+    .header-content-responsive-img2 img{
+        border-radius: 18px;
+    }
+
+    .header-content-description{
+        width: 343px;
+        height: 280.33px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .header-content-first-description{
+        height: 50%;
+        padding: 24px 24px 40px 24px;
+        background-color: #EAF2FF;
+        border-radius: 18px 18px 0px 0px;
+    }
+    
+    .header-content-first-title{
+        font-size: 28px;
+        line-height: 33.89px;
+    }
+    
+    .first-title-description{
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+    
+    .header-content-second-description{
+        top: -35px;
+        height: 50%;
+        padding: 24px;
+        border-radius: 18px;
+        z-index: 1;
+    }
+    
+    .header-content-second-title{
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+    
+    .second-title-description{
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+
+    .header-content-search{
+        display: none;
+    }
+    #header-content-title{
+        /* display: none; */
+    } 
+
+    #header-content-title{
+        width: 100%;
+        height: 60px;
+        padding: 18px;
+    }
+  
+    .header-content-title-text h1 {
+        font-size: 16px;
+        line-height: 19.36px;
+        width: 410px;
+        height: 19px;
+    }
+
+    .content-glide-images {
+        margin: 0px 20px;
+    }
+
+    .glide__slide-each-img{
+        position: relative;
+        border-radius: 22px;
+          width: 269px;
+          height: 335.61px;
+        }      
+  
+        .glide__slide-img::after{
+          content: "020";
+            text-indent: -999em;
+            display: block;
+            width: 269px;
+          height: 335.61px;
+            background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.473958) 29.69%, rgba(0, 0, 0, 0) 89.58%);
+            border-radius: 22px;
+            top: 0;
+            position: absolute;
+        }
+        .glide__slide-title {
+          position: relative;
+          bottom: 50px;
+          left: 25px;
+        }
+  
+      .glide__slide-detail{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14.52px;
+        color: var(--white-color);
+      }
+  
+      .glide__slide-line{
+        width: 20px;
+        height: 5px;
+        background-color: #E31F26;
+        margin-top: 10px;
+      }
+
+      .glide__arrow{
+        display: none;
+      }
+
+      .content-introduce-title{
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+    .content-introduce-each-col.active {
+        padding: 22px;
+        border-radius: 12px;
+    }
+
+    .content-introduce-each-col.active .each-col-title-icon{
+        width: 34px;
+        height: 34px;
+    }
+
+    .each-col-title-icon{
+        width: 34px;
+        height: 34px;
+    }
+    .each-col-title-icon img{
+        width: 12px;
+        height: 12px;
+    }
+    
+    .content-introduce-each-col h4 {
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+
+    .content-introduce-each-col.active h4 {
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+    
+    .content-introduce-each-col.active p {
+        font-size: 14px;
+        line-height: 16.94px;
+        width: 288px;
+    }
+
+    .footer-contact-image{
+        display: none;
+    }
+
+    .footer-contact-information{
+        width: 100%;
+    }
+
+    .footer-contact-user{
+        display: block;
+        width: 100%;
+    }
+
+    .footer-contact-user-input{
+        width: 100%;
+        margin-left: 5px;
+        height: 67px;
+        padding: 16px;
+        border-radius: 8px;
+    }
+
+    .footer-contact-response{
+        width: 100%;
+        height: 251px;
+    }
+    
+    .footer-contact-response-text{
+        padding: 16px;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .footer-contact-button{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .footer-contact-button-text{
+        text-align: center;
+    }
+
+    .footer-information-first-informs{
+        display: block;
+    }
+    
+    .footer-information-second-line-informs{
+        margin: 30px 0 0 0;
+    }
+    .footer-information{
+        justify-content: space-around;
+    }
+
+    .footer-end-title{
+        text-align: center;
+    }
+}
+
+/* desktop */
+/* @media (min-width: 1320px) {
+    
+} */
